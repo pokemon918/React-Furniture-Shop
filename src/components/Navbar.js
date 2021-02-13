@@ -16,7 +16,7 @@ export class Navbar extends Component {
                 <div className="nav-center">
                     <div className="nav-header">
                         <Link to="/">
-                            <img src={logo} alt='Unique Furniture' width="200vw" height="43vh" />
+                            <img src={logo} alt='Furniture' width="200vw" height="43vh" />
                         </Link>
                         <button
                             type='button'
