@@ -38,7 +38,7 @@ const Home = () => {
         <>
             <Hero>
                 <Banner
-                    title="UNIQUE FURNITURE"
+                    title="FURNITURE SHOP"
                     subtitle="deluxe furniture at best price">
                     <Link
                         to="/products"

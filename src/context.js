@@ -16,29 +16,29 @@ export default class ProductProvider extends Component {
         maxPrice: 0
     }
 
-    getData = async () => {
-        try {
-            let response = await Client.getEntries({
-                content_type: "uniqueFurniture",
-                // order: 'sys.createdAt'
-                order: '-fields.price'
-            })
-            let products = this.formatData(response.items)
-            let featuredProducts = products.filter(product => product.featured === true)
-            let maxPrice = Math.max(...products.map(item => item.price))
+    // getData = async () => {
+    //     try {
+    //         let response = await Client.getEntries({
+    //             content_type: "uniqueFurniture",
+    //             // order: 'sys.createdAt'
+    //             order: '-fields.price'
+    //         })
+    //         let products = this.formatData(response.items)
+    //         let featuredProducts = products.filter(product => product.featured === true)
+    //         let maxPrice = Math.max(...products.map(item => item.price))
 
-            this.setState({
-                products,
-                featuredProducts,
-                sortedProducts: products,
-                loading: false,
-                price: maxPrice,
-                maxPrice
-            })
-        } catch (error) {
-            console.log(error)
-        }
-    }
+    //         this.setState({
+    //             products,
+    //             featuredProducts,
+    //             sortedProducts: products,
+    //             loading: false,
+    //             price: maxPrice,
+    //             maxPrice
+    //         })
+    //     } catch (error) {
+    //         console.log(error)
+    //     }
+    // }
 
     componentDidMount() {
         // -----contentful data-------------
