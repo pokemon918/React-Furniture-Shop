@@ -1,15 +1,13 @@
 import React from 'react';
 import Title from './Title'
-import {Link} from 'react-router-dom'
-import img1 from "../images/g1.jpeg";
-import img2 from "../images/g2.jpeg";
-import img3 from "../images/g3.jpeg";
-import img4 from "../images/g4.jpeg";
-import img5 from "../images/g6.jpg";
-import img6 from "../images/g8.jpeg";
-import img7 from "../images/g9.jpeg";
-import img8 from "../images/g13.jpg";
-import img9 from "../images/g12.jpeg";
+import { Link } from 'react-router-dom';
+
+import img2 from "../images/room-1.jpeg";
+import img4 from "../images/room-2.jpeg";
+import img5 from "../images/room-3.jpeg";
+import img7 from "../images/images/product-5.jpeg";
+import img8 from "../images/images/product-6.jpeg";
+import img9 from "../images/images/product-7.jpeg";
 
 const GalleryHome = () => {
   return (

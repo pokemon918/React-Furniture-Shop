@@ -14,11 +14,11 @@ const services = [
     {
         icon: <IoMdCall />,
         title: "Call At",
-        info: "9810226266"
+        info: "XXXXXXXXXX"
     }, {
         icon: <IoIosMail />,
         title: "Mail Us At",
-        info: "goel.amit125@gmail.com"
+        info: "example@email.com"
     }, {
         icon: <FaWhatsapp />,
         title: "Join WhatsApp Group",
@@ -35,7 +35,7 @@ const services = [
     }, {
         icon: <FaRegAddressBook/>,
         title: "Address",
-        info: "100 Feet Rd, Sant Nagar, Burari, Delhi, 110084, India"
+        info: "Street 1010, somewhere"
     }, {
         icon: <GoLocation/>,
         title: "Find Us",

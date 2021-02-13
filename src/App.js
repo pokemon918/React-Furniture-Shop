@@ -24,16 +24,16 @@ export const App = () => {
         <Route path="/contact" exact component={Contact} />
         <Route path="/gallery" exact component={Gallery} />
         <Route path='/joinwhatsapp' component={() => {
-          window.location.href = 'https://chat.whatsapp.com/EReWuijxhX68qcAia4FAI1'; 
+          window.location.href = 'https://chat.whatsapp.com/'; 
         }} />
         <Route path='/joininsta' component={() => {
-          window.location.href = 'https://www.instagram.com/uniquefurniture._/'; 
+          window.location.href = 'https://www.instagram.com/'; 
         }} />
         <Route path='/joinfacebook' component={() => {
-          window.location.href = 'https://www.facebook.com/Unique-Furniture-2424447811119898/'; 
+          window.location.href = 'https://www.facebook.com/'; 
         }} />
         <Route path='/locate' component={() => {
-          window.location.href = 'https://g.page/unique-furniture-delhi?share'; 
+          window.location.href = 'https://g.page/furniture?share'; 
         }} />
         <Route component={Error} />
       </Switch>
